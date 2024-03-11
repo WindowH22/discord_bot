@@ -30,6 +30,7 @@ public class DiscordBotApplication {
 
     @Component
     class DiscordBotToken {
+
         @Value("${discord.bot.token}")
         private String discordToken;
         public String getDiscordBotToken() {
